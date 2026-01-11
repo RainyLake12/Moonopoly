@@ -8,3 +8,4 @@ add_executable(Moonopoly "${SRC}")
 target_include_directories(Moonopoly PRIVATE "${PORJECT_FOLDER}/include")
 
 target_link_libraries(Moonopoly lua)
+target_link_libraries(Moonopoly SDL2)
